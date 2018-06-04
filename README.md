@@ -163,10 +163,4 @@ Last but not least the deployment key can be readonly.
 
 This project was created by [Matthias Berla](https://github.com/berlam).
 
-## License ##
 
-See [LICENSE](LICENSE).
-
-- AWS SDK: [Apache License Version 2.0](https://github.com/aws/aws-sdk-java/blob/master/LICENSE.txt)
-- Tika: [Apache License Version 2.0](https://github.com/apache/tika/blob/master/LICENSE.txt)
-- JGit: [EDL Version 1.0](https://github.com/eclipse/jgit/blob/master/LICENSE)
