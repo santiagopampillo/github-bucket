@@ -49,7 +49,19 @@ Create a user for GitHub. Go to the AWS console, switch to IAM and create a user
 
 ### S3 ###
 
-Create a new bucket (or choose a existing empty bucket). That's it!
+Create a new public bucket (or choose a existing empty bucket). That's it!
+                    {
+                        "Version": "2012-10-17",
+                        "Statement": [
+                            {
+                                "Sid": "PublicReadGetObject",
+                                "Effect": "Allow",
+                                "Principal": "*",
+                                "Action": "s3:GetObject",
+                                "Resource": "arn:aws:s3:::sima-github-bucket/*"
+                            }
+                        ]
+                    }
 
 ### Lambda ###
 
