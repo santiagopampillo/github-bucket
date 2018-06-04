@@ -50,6 +50,7 @@ Create a user for GitHub. Go to the AWS console, switch to IAM and create a user
 ### S3 ###
 
 Create a new public bucket (or choose a existing empty bucket). That's it!
+```JSON
                     {
                         "Version": "2012-10-17",
                         "Statement": [
@@ -62,7 +63,7 @@ Create a new public bucket (or choose a existing empty bucket). That's it!
                             }
                         ]
                     }
-
+```
 ### Lambda ###
 
 Download the latest release from the [release section](https://github.com/berlam/github-bucket/releases/latest).
