@@ -49,7 +49,7 @@ Create a user for GitHub. Go to the AWS console, switch to IAM and create a user
 
 ### S3 ###
 
-Create a new public bucket (or choose a existing empty bucket). That's it!
+Create a new public bucket? (or choose a existing empty bucket). That's it!
 ```JSON
                     {
                         "Version": "2012-10-17",
