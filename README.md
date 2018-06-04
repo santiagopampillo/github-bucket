@@ -159,8 +159,6 @@ Furthermore there is a great implementation of Git completely written in Java by
 This allowed me to use the much better deployment keys instead of the plain GitHub API, which also has less features and requires you to add a personal access token for your whole account and not just the repository.
 Last but not least the deployment key can be readonly.
 
-## Credits ##
 
-This project was created by [Matthias Berla](https://github.com/berlam).
 
 
