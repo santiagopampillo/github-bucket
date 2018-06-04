@@ -1,4 +1,4 @@
-github-bucket
+sima-github-bucket
 ================
 
 Deploy every [GitHub](https://github.com/) repository securely with [Git](https://git-scm.com/) to your [S3](https://aws.amazon.com/s3/) bucket and keep it automatically up to date on push.
